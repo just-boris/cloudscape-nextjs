@@ -1,8 +1,5 @@
-const withTM = require("next-transpile-modules")(["@cloudscape-design/components"]);
-
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   reactStrictMode: true,
+  transpilePackages: ["@cloudscape-design/components"],
 };
-
-module.exports = withTM(nextConfig);
