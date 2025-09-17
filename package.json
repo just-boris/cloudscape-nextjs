@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "eslint": "^8.35.0",
-    "eslint-config-next": "^13.2.3",
-    "next": "^13.2.3"
+    "eslint-config-next": "^15.5.3",
+    "next": "^15.5.3"
   }
 }
